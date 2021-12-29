@@ -51,6 +51,7 @@
       l = "ls -la";
       gst = "git status";
       gc = "git commit -m";
+      gp = "git push";
       gco = "git checkout";
       gcm = "git checkout master";
       gcd = "git checkout develop";
