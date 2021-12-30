@@ -2,15 +2,19 @@
 
 {
   imports = [
-    ./nvim.nix
+    ./nvim
   ];
 
   home.username = "rmk";
   home.homeDirectory = "/home/rmk";
 
   home.packages = [
+    pkgs.fd
+    pkgs.fzf
     pkgs.git
+    pkgs.ripgrep
     pkgs.starship
+    pkgs.tealdeer
     pkgs.tmux
     pkgs.zsh
   ];
