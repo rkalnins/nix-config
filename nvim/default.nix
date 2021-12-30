@@ -40,6 +40,7 @@ let
       nvim-cmp
       treesitter
       telescope-nvim
+      which-key-nvim
     ];
 in
 {

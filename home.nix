@@ -61,7 +61,7 @@
       gcd = "git checkout develop";
       gaa = "git add --all";
     };
-  
+
     oh-my-zsh = {
       enable = true;
     };
