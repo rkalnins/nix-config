@@ -30,6 +30,7 @@ let
     gruvbox
     kommentary
     luasnip
+    nvim-web-devicons
     telescope-fzf-native-nvim
     vim-nix
   ];
