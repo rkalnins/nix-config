@@ -42,8 +42,17 @@ ln -s ~/nix-config ~/.config/nixpkgs
 ```bash
 home-manager switch
 ```
+On Ubuntu 16.04, I've had issues building `go` and `cchardet` (a requirement for `black` for `neovim`).
 
-If there's a conflict,
+`Go` issues:
+- <https://github.com/NixOS/nix/issues/3245>
+- <https://github.com/NixOS/nixpkgs/pull/144398>
+
+Workaround here was to `nix build` `go` separately using `--options sandbox false`.
+
+For the `cchardet` issue, I've removed the `black` package from `neovim` for ubuntu 16.04.
+
+Then, if there's a conflict,
 
 ```bash
 sudo rm /nix/store/<hash>-nix-2.5.1/share/zsh/site-functions/_nix
