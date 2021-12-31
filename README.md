@@ -26,8 +26,8 @@ nix-shell '<home-manager>' -A install
 
 ```bash
 # add experimental features to ~/.config/nix/nix.conf
-mkdir ~/.config/nix && touch ~/.config/nix.conf
-echo "experimental-features = nix-command flakes" >> ~/.config/nix.conf
+mkdir ~/.config/nix && touch ~/.config/nix/nix.conf
+echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 ```
 
 ### Symlinking `nix-config` and `nixpkgs`
