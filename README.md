@@ -92,7 +92,7 @@ VM port: 22
 
 ## Roadmap
 
-- Package these instructins into some kinda of deploy script
+- Package these instructins into some kind of deploy script
 
 ## Acknowledgements
 
