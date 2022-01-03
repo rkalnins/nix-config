@@ -9,6 +9,7 @@
   home.homeDirectory = "/home/rmk";
 
   home.packages = [
+    pkgs.cowsay
     pkgs.fd
     pkgs.fzf
     pkgs.git
@@ -17,6 +18,7 @@
     pkgs.tealdeer
     pkgs.tmux
     pkgs.zsh
+    pkgs.xclip
   ];
 
   home.stateVersion = "22.05";
