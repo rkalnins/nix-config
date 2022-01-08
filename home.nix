@@ -13,6 +13,7 @@
     pkgs.fd
     pkgs.fzf
     pkgs.git
+    pkgs.glow
     pkgs.ripgrep
     pkgs.starship
     pkgs.tealdeer

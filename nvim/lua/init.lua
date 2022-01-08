@@ -17,7 +17,7 @@ o.viewoptions = "folds,options,cursor,unix,slash"
 o.number = true
 o.relativenumber = true
 
-local tabWidth = 4
+local tabWidth = 2
 
 o.expandtab = true
 o.laststatus = tabWidth

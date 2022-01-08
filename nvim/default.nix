@@ -33,6 +33,7 @@ let
     nvim-web-devicons
     telescope-fzf-native-nvim
     vim-nix
+    vim-surround
   ];
 
   vimPluginsWithConfig = with pkgs.vimPlugins;
@@ -59,6 +60,7 @@ in
     plugins = vimPluginsWithConfig ++ vimPlugins;
     extraPackages = with pkgs; [
       black
+      clang-tools
       gcc
       nodePackages.pyright
       rnix-lsp
